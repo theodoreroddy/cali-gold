@@ -1,0 +1,6 @@
+framework module Pods_Cali_Gold_TV {
+  umbrella header "Pods-Cali Gold TV-umbrella.h"
+
+  export *
+  module * { export * }
+}

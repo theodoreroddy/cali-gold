@@ -1,0 +1,6 @@
+framework module OptimizelySDKUserProfile {
+  umbrella header "OptimizelySDKUserProfile-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
