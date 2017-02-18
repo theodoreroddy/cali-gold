@@ -1,73 +1,12 @@
 PODS:
-  - FMDB (2.6.2):
-    - FMDB/standard (= 2.6.2)
-  - FMDB/standard (2.6.2)
-  - JSONModel (1.3.0)
-  - OptimizelySDKCore (0.5.0):
-    - OptimizelySDKCore/JSONModel (= 0.5.0)
-  - OptimizelySDKCore/JSONModel (0.5.0):
-    - JSONModel (= 1.3.0)
-  - OptimizelySDKDatafileManager (0.5.0):
-    - OptimizelySDKDatafileManager/JSONModel (= 0.5.0)
-    - OptimizelySDKShared (= 0.5.0)
-  - OptimizelySDKDatafileManager/JSONModel (0.5.0):
-    - JSONModel (= 1.3.0)
-    - OptimizelySDKShared (= 0.5.0)
-  - OptimizelySDKEventDispatcher (0.5.0):
-    - OptimizelySDKEventDispatcher/JSONModel (= 0.5.0)
-    - OptimizelySDKShared (= 0.5.0)
-  - OptimizelySDKEventDispatcher/JSONModel (0.5.0):
-    - JSONModel (= 1.3.0)
-    - OptimizelySDKShared (= 0.5.0)
-  - OptimizelySDKiOS (0.5.0):
-    - OptimizelySDKDatafileManager (= 0.5.0)
-    - OptimizelySDKEventDispatcher (= 0.5.0)
-    - OptimizelySDKiOS/JSONModel (= 0.5.0)
-    - OptimizelySDKUserProfile (= 0.5.0)
-  - OptimizelySDKiOS/JSONModel (0.5.0):
-    - JSONModel (= 1.3.0)
-    - OptimizelySDKDatafileManager (= 0.5.0)
-    - OptimizelySDKEventDispatcher (= 0.5.0)
-    - OptimizelySDKUserProfile (= 0.5.0)
-  - OptimizelySDKShared (0.5.0):
-    - FMDB (= 2.6.2)
-    - JSONModel (= 1.3.0)
-    - OptimizelySDKCore (= 0.5.0)
-  - OptimizelySDKTVOS (0.5.0):
-    - OptimizelySDKDatafileManager (= 0.5.0)
-    - OptimizelySDKEventDispatcher (= 0.5.0)
-    - OptimizelySDKTVOS/JSONModel (= 0.5.0)
-    - OptimizelySDKUserProfile (= 0.5.0)
-  - OptimizelySDKTVOS/JSONModel (0.5.0):
-    - JSONModel (= 1.3.0)
-    - OptimizelySDKDatafileManager (= 0.5.0)
-    - OptimizelySDKEventDispatcher (= 0.5.0)
-    - OptimizelySDKUserProfile (= 0.5.0)
-  - OptimizelySDKUserProfile (0.5.0):
-    - OptimizelySDKShared (= 0.5.0)
-    - OptimizelySDKUserProfile/JSONModel (= 0.5.0)
-  - OptimizelySDKUserProfile/JSONModel (0.5.0):
-    - JSONModel (= 1.3.0)
-    - OptimizelySDKShared (= 0.5.0)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
-  - OptimizelySDKiOS
-  - OptimizelySDKTVOS
   - SwiftyJSON
 
 SPEC CHECKSUMS:
-  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
-  JSONModel: 81c06ecf99190a25fa6aafceea5faffa7880868a
-  OptimizelySDKCore: b02613003c227a2344aa35e498f7a5a88ada2c1f
-  OptimizelySDKDatafileManager: e7bbde433dcbfbf9692f381dae21bfa4b46cedde
-  OptimizelySDKEventDispatcher: 9c7a3d0b3112ce511012df50afe04e09965b88a4
-  OptimizelySDKiOS: dd60232e46bd9f286fa218006f63e4d9e734ff8f
-  OptimizelySDKShared: 85b9c196206cf94322ffa12cec6056a681da6a48
-  OptimizelySDKTVOS: ff0c01837ee6a57722ac7aadbca7b8ea78f6e05c
-  OptimizelySDKUserProfile: da55898b77b7d83fdfe569af6570cad9dbc497fb
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: dd86bcfac923f153a8588eea26ee75c5275be2a6
+PODFILE CHECKSUM: a063f9732363d0593422c9071fd52f228d6edf0b
 
 COCOAPODS: 1.1.1

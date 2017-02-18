@@ -4,81 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FMDB.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>JSONModel-iOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>JSONModel-tvOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKCore-iOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKCore-tvOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKDatafileManager-iOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKDatafileManager-tvOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKEventDispatcher-iOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKEventDispatcher-tvOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKShared-iOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKShared-tvOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKTVOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKUserProfile-iOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKUserProfile-tvOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OptimizelySDKiOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Cali Gold TV.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -102,97 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0704AEA4F658A78A005472139CA3F53C</key>
+		<key>0194F2E450E36E125A490491BDC3ECD8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>16F31AD37CA5130ABD8512A3E90A27B7</key>
+		<key>12F61B785528D9C802E32C03D24FD773</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>251BAD17812F7EBF6532EACF66F941C3</key>
+		<key>53FEF71819B95692FFD93630E86F6BEB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2DAA8D13CF122B350342163DF9F471B6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4016B085F5B8DBC6DAFE084C1EE14A30</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5519461572BF35BCBD25DE3AF350859F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6F052F047896DAD5AB2FC31FC12D5633</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>75A1C26C43F1F4ED7E15AD45126F816C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7910C47E40114D9516B9A11ED129069D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>92ECD438421B65A9F83FEC906144B211</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>94E270D15EE3D5B53CD351E259697623</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A9DA823EFE9AEAF2136680CD727B0E37</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B5384248FCAA1662D38AC95740D2820B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C18C59E6E930C421D0EDB4192DF6F428</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C5BACEC8835C0C36F4EDCAEB42CB6355</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C87D3B12F971B9BAE9E09CE48FF9FAB2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CED1737C0D54D41AD744784055BE8C70</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EEB42C7D379318A9736B2A5D2CF5A0B5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F38718093D30CA423289FD5783851010</key>
+		<key>D8A2419CCDE374779C37B6631EC5B050</key>
 		<dict>
 			<key>primary</key>
 			<true/>

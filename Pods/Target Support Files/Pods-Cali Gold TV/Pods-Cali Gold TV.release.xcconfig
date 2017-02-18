@@ -1,10 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) $(PODS_ROOT)/JSONModel "$PODS_CONFIGURATION_BUILD_DIR/JSONModel-tvOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKCore-tvOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKDatafileManager-tvOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKEventDispatcher-tvOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKShared-tvOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKTVOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKUserProfile-tvOS" "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-tvOS"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 OPTIMIZELY_SDK_CORE_VERSION=@\"0.5.0\" OPTIMIZELY_SDK_DATAFILE_MANAGER_VERSION=@\"0.5.0\" OPTIMIZELY_SDK_EVENT_DISPATCHER_VERSION=@\"0.5.0\" OPTIMIZELY_SDK_SHARED_VERSION=@\"0.5.0\" OPTIMIZELY_SDK_USER_PROFILE_VERSION=@\"0.5.0\" OPTIMIZELY_SDK_TVOS_VERSION=@\"0.5.0\"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-tvOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/JSONModel-tvOS/JSONModel.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKCore-tvOS/OptimizelySDKCore.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKDatafileManager-tvOS/OptimizelySDKDatafileManager.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKEventDispatcher-tvOS/OptimizelySDKEventDispatcher.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKShared-tvOS/OptimizelySDKShared.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKTVOS/OptimizelySDKTVOS.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKUserProfile-tvOS/OptimizelySDKUserProfile.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-tvOS/SwiftyJSON.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "JSONModel" -framework "OptimizelySDKCore" -framework "OptimizelySDKDatafileManager" -framework "OptimizelySDKEventDispatcher" -framework "OptimizelySDKShared" -framework "OptimizelySDKTVOS" -framework "OptimizelySDKUserProfile" -framework "SwiftyJSON"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-tvOS/SwiftyJSON.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "SwiftyJSON"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

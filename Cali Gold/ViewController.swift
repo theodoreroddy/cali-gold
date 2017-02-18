@@ -14,7 +14,6 @@ import NotificationCenter
 class ViewController: UITableViewController {
 
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
-    let Optimizely = (UIApplication.shared.delegate as! AppDelegate).Optimizely
     let caliGold = (UIApplication.shared.delegate as! AppDelegate).caliGold
     var shouldAutoPlay = false
     
@@ -68,7 +67,6 @@ class ViewController: UITableViewController {
     
     func playerDidFinishPlaying(note: NSNotification) {
         self.appDelegate.currentEpisode = nil
-        Optimizely.track(event: "videoFinishedPlaying")
         playerViewController.dismiss(animated: true, completion: { () in
             if self.shouldAutoPlay  {
                 self.playRandom()
@@ -128,17 +126,7 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         appDelegate.currentEpisode = caliGold.getEpisodes(bySeason: indexPath.section + 1)?[indexPath.row]
-        _ = Optimizely.activate(experiment: "detailView")
-        if Optimizely.get(boolForKey: "shouldShowDetail") {
-            
-            // present detail view controller
-            
-            
-            
-        } else {
-            self.play(season: indexPath.section + 1, episode: indexPath.row)
-        }
-
+        self.play(season: indexPath.section + 1, episode: indexPath.row)
     }
     
 }
