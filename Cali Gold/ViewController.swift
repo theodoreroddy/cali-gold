@@ -25,11 +25,10 @@ class ViewController: UITableViewController {
         
         // background playback
         try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-//        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.startExperiment), name: NSNotification.Name(rawValue: "OptimizelyStarted"), object: nil)
-        
+    
         self.title = "California's Gold"
         
-        // handle 3d touch quick actions
+        // handle 3d touch quick actions should go somewhere else
         NotificationCenter.default.addObserver(self, selector: #selector(ViewController.searchQuickAction), name: NSNotification.Name(rawValue: "net.tedroddy.Cali-Gold.search"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(ViewController.randomQuickAction), name: NSNotification.Name(rawValue: "net.tedroddy.Cali-Gold.watchnow"), object: nil)
         
