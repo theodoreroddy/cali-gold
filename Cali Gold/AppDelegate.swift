@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OptimizelySDKiOS
 import NotificationCenter
 
 @UIApplicationMain
@@ -15,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var caliGold = DataModel()
     var currentEpisode: Episode? = nil
+    
+    let Optimizely = OptimizelyWrapper(userId: "dr_sadler", projectId: "8135665169")
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

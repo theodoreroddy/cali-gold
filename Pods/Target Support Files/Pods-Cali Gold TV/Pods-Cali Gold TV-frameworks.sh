@@ -84,8 +84,22 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/JSONModel-tvOS/JSONModel.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKCore-tvOS/OptimizelySDKCore.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKDatafileManager-tvOS/OptimizelySDKDatafileManager.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKEventDispatcher-tvOS/OptimizelySDKEventDispatcher.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKShared-tvOS/OptimizelySDKShared.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKUserProfile-tvOS/OptimizelySDKUserProfile.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON-tvOS/SwiftyJSON.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKTVOS/OptimizelySDKTVOS.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/JSONModel-tvOS/JSONModel.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKCore-tvOS/OptimizelySDKCore.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKDatafileManager-tvOS/OptimizelySDKDatafileManager.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKEventDispatcher-tvOS/OptimizelySDKEventDispatcher.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKShared-tvOS/OptimizelySDKShared.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKUserProfile-tvOS/OptimizelySDKUserProfile.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON-tvOS/SwiftyJSON.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKTVOS/OptimizelySDKTVOS.framework"
 fi

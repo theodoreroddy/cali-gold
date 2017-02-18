@@ -84,8 +84,24 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/FMDB/FMDB.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/JSONModel-iOS/JSONModel.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKCore-iOS/OptimizelySDKCore.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKDatafileManager-iOS/OptimizelySDKDatafileManager.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKEventDispatcher-iOS/OptimizelySDKEventDispatcher.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKShared-iOS/OptimizelySDKShared.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKUserProfile-iOS/OptimizelySDKUserProfile.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKiOS/OptimizelySDKiOS.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON-iOS/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/FMDB/FMDB.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/JSONModel-iOS/JSONModel.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKCore-iOS/OptimizelySDKCore.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKDatafileManager-iOS/OptimizelySDKDatafileManager.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKEventDispatcher-iOS/OptimizelySDKEventDispatcher.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKShared-iOS/OptimizelySDKShared.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKUserProfile-iOS/OptimizelySDKUserProfile.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/OptimizelySDKiOS/OptimizelySDKiOS.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON-iOS/SwiftyJSON.framework"
 fi

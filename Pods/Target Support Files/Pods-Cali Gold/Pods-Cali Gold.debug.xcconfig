@@ -1,10 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-iOS"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(PODS_ROOT)/JSONModel "$PODS_CONFIGURATION_BUILD_DIR/FMDB" "$PODS_CONFIGURATION_BUILD_DIR/JSONModel-iOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKCore-iOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKDatafileManager-iOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKEventDispatcher-iOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKShared-iOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKUserProfile-iOS" "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKiOS" "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-iOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 OPTIMIZELY_SDK_CORE_VERSION=@\"0.5.0\" OPTIMIZELY_SDK_DATAFILE_MANAGER_VERSION=@\"0.5.0\" OPTIMIZELY_SDK_EVENT_DISPATCHER_VERSION=@\"0.5.0\" OPTIMIZELY_SDK_SHARED_VERSION=@\"0.5.0\" OPTIMIZELY_SDK_USER_PROFILE_VERSION=@\"0.5.0\" OPTIMIZELY_SDK_iOS_VERSION=@\"0.5.0\"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-iOS/SwiftyJSON.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "SwiftyJSON"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/FMDB/FMDB.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JSONModel-iOS/JSONModel.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKCore-iOS/OptimizelySDKCore.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKDatafileManager-iOS/OptimizelySDKDatafileManager.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKEventDispatcher-iOS/OptimizelySDKEventDispatcher.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKShared-iOS/OptimizelySDKShared.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKUserProfile-iOS/OptimizelySDKUserProfile.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OptimizelySDKiOS/OptimizelySDKiOS.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-iOS/SwiftyJSON.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "FMDB" -framework "JSONModel" -framework "OptimizelySDKCore" -framework "OptimizelySDKDatafileManager" -framework "OptimizelySDKEventDispatcher" -framework "OptimizelySDKShared" -framework "OptimizelySDKUserProfile" -framework "OptimizelySDKiOS" -framework "SwiftyJSON"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

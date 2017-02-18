@@ -22,6 +22,7 @@
 		886A5D781E2342F000695DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886A5D761E2342F000695DF6 /* LaunchScreen.storyboard */; };
 		886A5D811E23447500695DF6 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886A5D7F1E23447500695DF6 /* DataModel.swift */; };
 		886A5D821E23447500695DF6 /* Episodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 886A5D801E23447500695DF6 /* Episodes.json */; };
+		88EA3A711E257B43001F60D1 /* Optimizely.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA3A701E257B43001F60D1 /* Optimizely.swift */; };
 		E717E37546E5E11F01EE5E35 /* Pods_Cali_Gold_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC04307BE99EEE5F4ED5731F /* Pods_Cali_Gold_TV.framework */; };
 		FD15BE82EC21BA7598E81BA3 /* Pods_Cali_Gold.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05293483D92AC36C91E8777E /* Pods_Cali_Gold.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		8879C2981E27163A0030CCE7 /* OptimizelySDKUserProfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OptimizelySDKUserProfile.framework; path = "Pods/../build/Debug-appletvos/OptimizelySDKUserProfile-tvOS/OptimizelySDKUserProfile.framework"; sourceTree = "<group>"; };
 		8879C2991E27163A0030CCE7 /* Pods_Cali_Gold_TV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Cali_Gold_TV.framework; path = "Pods/../build/Debug-appletvos/Pods_Cali_Gold_TV.framework"; sourceTree = "<group>"; };
 		8879C29A1E27163A0030CCE7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-appletvos/SwiftyJSON-tvOS/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		88EA3A701E257B43001F60D1 /* Optimizely.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optimizely.swift; sourceTree = "<group>"; };
 		962B45ABA7CAFCAB038646BA /* Pods-Cali Gold.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cali Gold.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cali Gold/Pods-Cali Gold.release.xcconfig"; sourceTree = "<group>"; };
 		D2ACD17239E23A6F019118BC /* Pods-Cali Gold TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cali Gold TV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cali Gold TV/Pods-Cali Gold TV.debug.xcconfig"; sourceTree = "<group>"; };
 		DC04307BE99EEE5F4ED5731F /* Pods_Cali_Gold_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cali_Gold_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 				886A5D711E2342F000695DF6 /* Main.storyboard */,
 				885750541E2961E6007D4463 /* DetailViewController.swift */,
 				886A5D7F1E23447500695DF6 /* DataModel.swift */,
+				88EA3A701E257B43001F60D1 /* Optimizely.swift */,
 				886A5D801E23447500695DF6 /* Episodes.json */,
 				886A5D741E2342F000695DF6 /* Assets.xcassets */,
 				886A5D761E2342F000695DF6 /* LaunchScreen.storyboard */,
@@ -387,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				886A5D811E23447500695DF6 /* DataModel.swift in Sources */,
+				88EA3A711E257B43001F60D1 /* Optimizely.swift in Sources */,
 				885750551E2961E6007D4463 /* DetailViewController.swift in Sources */,
 				886A5D701E2342F000695DF6 /* ViewController.swift in Sources */,
 				886A5D6E1E2342F000695DF6 /* AppDelegate.swift in Sources */,
